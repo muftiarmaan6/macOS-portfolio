@@ -20,7 +20,7 @@ const renderContainer= (text, className, textWeight= 400) =>{
 }
 
 const textHoverAnimation= (container, type) => {
-    if(!container) return;
+    if(!container) return ()=>{};
 
     const letters= container.querySelectorAll("span");
     const {min, max , default: base} = FONT_WEIGHTS[type];
@@ -79,10 +79,16 @@ const Welcome = () => {
       </p>
       <h1 ref={titleRef} className="mt-9">
         {renderContainer("rmn-Folio",
-           'text-9xl font-georama italic', 
+           'text-8xl font-georama italic', 
            500)}
       </h1>
+
+      <div className="small-screen">
+          <p>This portfolio is designed for desktop/tablets only.</p>
+      </div>
     </section>
+
+    
   )
 }
 
