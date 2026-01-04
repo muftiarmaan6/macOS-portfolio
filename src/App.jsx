@@ -1,10 +1,12 @@
-import {Navbar, Welcome} from "#components/imports";
+import {Navbar, Welcome, Dock} from "#components/imports";
+
 
 const  app = () => {
   return (
     <main>
       <Navbar/>
       <Welcome/>
+      <Dock/>
     </main>
   )
 }
