@@ -170,7 +170,7 @@ body {
     }
 
     .techstack {
-      @apply text-sm font-roboto p-5;
+      @apply text-sm font-roboto p-5 overflow-y-auto;
 
       .label {
         @apply flex items-center ms-10 mt-7;
