@@ -81,7 +81,7 @@ const blogPosts = [
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://www.google.com/?client=safari&zx=1767887285342&no_sw_cr=1",
   },
   {
     id: 2,
