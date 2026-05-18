@@ -101,28 +101,28 @@ const blogPosts = [
 
 const techStack = [
   {
+    category: "Languages",
+    items: ["Java", "JavaScript", "Python", "SQL"],
+  },
+  {
     category: "Frontend",
-    items: ["React.js", "Three.JS", "GSAP"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Flutter"],
-  },
-  {
-    category: "Styling",
-    items: ["Tailwind CSS", "Builders", "CSS"],
+    items: ["React.js", "HTML", "CSS", "Tailwind CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "SpringBoot"],
+    items: ["Node.js", "Express.js"],
   },
   {
     category: "AI/ML",
-    items: ["NumPy", "Pandas", "PyTorch"],
+    items: ["PyTorch", "NumPy", "Pandas"],
+  },
+  {
+    category: "Database",
+    items: ["Oracle SQL"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Postman", "VS Code"],
   },
 ];
 
@@ -132,28 +132,21 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/muftiarmaan6",
+    link: "https://github.com/MuftiArmaan",
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://github.com/muftiarmaan6",
-  },
-  {
-    id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/ergo_RMN",
+    link: "https://x.com/armaan_codes01",
   },
   {
-    id: 4,
+    id: 3,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "www.linkedin.com/in/mufti-armaan",
+    link: "https://www.linkedin.com/in/MuftiArmaan",
   },
 ];
 
@@ -288,8 +281,7 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
-      // you can add `href` if you want to open a hosted resume
-      // href: "/your/resume/path.pdf",
+      href: "/files/resume.pdf",
     },
   ],
 };

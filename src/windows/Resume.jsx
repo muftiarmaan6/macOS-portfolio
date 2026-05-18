@@ -19,12 +19,12 @@ const Resume = () => {
       <h2>
        Resume.pdf
       </h2>
-      <a href="files/resume.pdf" download className="cursor-pointer" title="Download PDF">
+      <a href="/files/resume.pdf" download className="cursor-pointer" title="Download PDF">
         <Download className="icon"/>
       </a>
     </div>
     
-        <Document file="files/resume.pdf" loading={<p className="p-4">Loading resume…</p>}>
+        <Document file="/files/resume.pdf" loading={<p className="p-4">Loading resume…</p>}>
           <Page pageNumber={1} renderTextLayer renderAnnotationLayer/>
         </Document>
     </>
